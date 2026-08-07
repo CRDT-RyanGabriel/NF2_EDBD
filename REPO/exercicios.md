@@ -662,6 +662,8 @@ for(int i=0;i<n;i++){
 }
 ```
 
+Resposta: a complexidade de tempo é O(n)
+
 Explique sua resposta.
 
 ---
