@@ -610,13 +610,14 @@ Complete a tabela:
 | i | v[i] | soma |
 | - | ---- | ---- |
 | 0 |  2   |  2   |
-| 1 |  6   |  4   |
-| 2 |      |      |
-| 3 |      |      |
-| 4 |      |      |
+| 1 |  4   |  6   |
+| 2 |  6   |  12  |
+| 3 |  8   |  20  |
+| 4 |  10  |  30  |
 
 Informe a saída final do programa.
 
+No final não vai sair nada por não ter nenhum print mas as variáveis serão soma=30, i=5
 ---
 
 # Exercício 11 - Identificação de Erros
