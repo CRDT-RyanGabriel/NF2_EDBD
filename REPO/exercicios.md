@@ -134,6 +134,65 @@ O programa deve permitir:
 - Vetores de estruturas.
 
 
+// Online C compiler to run C program online
+#include <stdio.h>
+
+struct Produto{
+
+    int codigo;
+    char nome[50];
+    float preco;
+    int quantidade;
+
+};
+
+int main() {
+
+int loop = 1;
+while(loop == 1){
+        int choice;
+        printf("\nESCOLHA UMA OPÇÃ0: \n");
+        printf("1-CADASTRAR PRODUTO. \n");
+        printf("2-LISTA DE PRODUTOS. \n");
+        printf("3-BUSCAR PRODUTO. \n");
+        printf("4-VALOR TOTAL DO ESTOQUE. \n");
+        scanf("%d", &choice);
+        
+    if(choice == 1){
+        
+        struct Produto product;
+        
+            printf("CÓDIGO DO PRODUTO: \n");
+            scanf("%d", &product.codigo);
+            
+            printf("NOME DO PRODUTO: \n");
+            scanf("%s", &product.nome);
+            
+            printf("PREÇO DO PRODUTO: \n");
+            scanf("%f", &product.preco);
+            
+            printf("QUANTIDADE: \n");
+            scanf("%d", &product.quantidade);
+            
+            printf("\nPRODUTO CADASTRADO. \n");
+            printf("CÓDIGO: %d \n", product.codigo);
+            printf("NOME: %s \n", product.nome);
+            printf("PREÇO: %.1f \n", product.preco);
+            printf("QUANT: %d \n", product.quantidade);
+    }
+    
+    else if(choice == 2){
+        
+        
+    }
+    
+}   
+    
+
+    return 0;
+}
+
+
 ---
 
 # Exercício 02 - Sistema de Produtos
