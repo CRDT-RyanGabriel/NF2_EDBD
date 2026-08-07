@@ -662,10 +662,10 @@ for(int i=0;i<n;i++){
 }
 ```
 
-Resposta: a complexidade de tempo é O(n)
 
 Explique sua resposta.
 
+Resposta: a complexidade de tempo é O(n) porque a quantidade de iterações é linearmente proporcional ao tamanho da minha entrada.
 ---
 
 # Exercício 13 - Complexidade Quadrática
